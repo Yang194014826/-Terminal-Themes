@@ -1,0 +1,27 @@
+{
+  "name": "paper",
+  "background": "#f8fafc",
+  "foreground": "#111827",
+  "cursor": "#2563eb",
+  "selection_background": "#dbeafe",
+  "transparency": 0,
+  "prompt_gradient": ["#2563eb", "#059669", "#7c3aed"],
+  "palette": [
+    "#111827",
+    "#dc2626",
+    "#059669",
+    "#ca8a04",
+    "#2563eb",
+    "#7c3aed",
+    "#0891b2",
+    "#f8fafc",
+    "#6b7280",
+    "#ef4444",
+    "#10b981",
+    "#eab308",
+    "#3b82f6",
+    "#8b5cf6",
+    "#06b6d4",
+    "#ffffff"
+  ]
+}

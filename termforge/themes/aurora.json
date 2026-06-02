@@ -1,0 +1,27 @@
+{
+  "name": "aurora",
+  "background": "#10131a",
+  "foreground": "#edf7f5",
+  "cursor": "#7dd3fc",
+  "selection_background": "#243447",
+  "transparency": 18,
+  "prompt_gradient": ["#7dd3fc", "#34d399", "#f0abfc"],
+  "palette": [
+    "#151922",
+    "#ff6b6b",
+    "#34d399",
+    "#facc15",
+    "#60a5fa",
+    "#f0abfc",
+    "#67e8f9",
+    "#edf7f5",
+    "#5b6472",
+    "#ff8585",
+    "#6ee7b7",
+    "#fde68a",
+    "#93c5fd",
+    "#f5d0fe",
+    "#a5f3fc",
+    "#ffffff"
+  ]
+}

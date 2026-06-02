@@ -1,0 +1,27 @@
+{
+  "name": "ember",
+  "background": "#141210",
+  "foreground": "#f8f1e8",
+  "cursor": "#fb923c",
+  "selection_background": "#3a2920",
+  "transparency": 10,
+  "prompt_gradient": ["#fb923c", "#ef4444", "#facc15"],
+  "palette": [
+    "#1f1a16",
+    "#ef4444",
+    "#84cc16",
+    "#eab308",
+    "#38bdf8",
+    "#d946ef",
+    "#14b8a6",
+    "#f8f1e8",
+    "#6b625b",
+    "#f87171",
+    "#a3e635",
+    "#fde047",
+    "#7dd3fc",
+    "#e879f9",
+    "#2dd4bf",
+    "#ffffff"
+  ]
+}

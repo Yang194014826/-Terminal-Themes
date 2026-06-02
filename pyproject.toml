@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termforge"
+version = "0.1.0"
+description = "Ubuntu terminal theme customizer for colors, transparency, and prompt gradients."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Termforge contributors" }
+]
+keywords = ["terminal", "ubuntu", "gnome-terminal", "theme", "prompt", "zsh", "bash"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: System :: Shells",
+  "Topic :: Utilities"
+]
+
+[project.scripts]
+termforge = "termforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["termforge*"]
+
+[tool.setuptools.package-data]
+termforge = ["themes/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
